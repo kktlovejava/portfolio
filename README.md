@@ -37,7 +37,8 @@
 # npm install style-loader css-loader --save-dev
 # 부트스트랩 뷰 다운로드
 #npm install bootstrap-vue bootstrap
-
+#
+#
 # install dependencies
 npm install
 

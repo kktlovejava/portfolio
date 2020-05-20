@@ -1,0 +1,44 @@
+.z-index {
+  z-index: 2;
+}
+.nav-up-button {
+  position: fixed;
+  top: 80px;
+  left: 50px;
+}
+.animate {
+  transition-delay: 0.1s;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+}
+.slide-up {
+  opacity: 0;
+}
+.slide-up.animate-active {
+  opacity: 1;
+}
+
+@keyframes rocking {
+  0%,
+  100% {
+    transform: rotateZ(-10deg);
+  }
+  50% {
+    transform: rotateZ(10deg);
+  }
+}
+
+.vue-typer .custom.char.typed {
+  color: rgb(255, 255, 255, 7) !important;
+}
+.vue-typer .custom.char.selected {
+  color: #ea80fc;
+}
+
+.vue-typer .custom.caret.typing {
+  background-color: #ea80fc;
+}
+.vue-typer .custom.caret.selecting {
+  display: inline-block;
+  background-color: #ea80fc;
+}
