@@ -35,7 +35,6 @@
 # 10. Vue 2 snippets(Vue 자동 완성)
 #  npm i stylus stylus-loader style-loader css-loader --save dev
 # npm install style-loader css-loader --save-dev
-# 커밋 내용 확인
 #
 # install dependencies
 npm install
