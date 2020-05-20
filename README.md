@@ -35,8 +35,6 @@
 # 10. Vue 2 snippets(Vue 자동 완성)
 #  npm i stylus stylus-loader style-loader css-loader --save dev
 # npm install style-loader css-loader --save-dev
-# 부트스트랩 뷰 다운로드
-#npm install bootstrap-vue bootstrap
 #
 #
 # install dependencies
