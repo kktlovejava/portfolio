@@ -1,17 +1,8 @@
 <!-- 메인 템플릿 -->
 <template>
-  <section
-    id="main-portfolio"
-    class="main-body"
-    v-animate.repeat.fade="'slide-up'"
-  >
+  <section id="main-portfolio" class="main-body" v-animate.repeat.fade="'slide-up'">
     <div class="video-container">
-      <video
-        src="https://traversymedia.com/downloads/video.mov"
-        autoplay
-        muted
-        loop
-      ></video>
+      <video src="https://traversymedia.com/downloads/video.mov" autoplay muted loop></video>
     </div>
     <div class="playful">
       <v-row align="center" justify="center" style="z-index:999;">
@@ -20,8 +11,7 @@
             <vue-typer
               :text="[
                 'We are the Team',
-                'Fullstack Developer',
-                'KyungTae & ShinYoung'
+                'Fullstack Developer'
               ]"
               :repeat="Infinity"
               :shuffle="false"
@@ -49,42 +39,7 @@
 
 <script>
 export default {
-  name: "main-portfolio",
-  data() {
-    return {
-      items: [
-        { name: "F" },
-        { name: "u" },
-        { name: "l" },
-        { name: "l" },
-        { name: "S" },
-        { name: "t" },
-        { name: "a" },
-        { name: "c" },
-        { name: "k" },
-        { name: " " },
-        { name: "D" },
-        { name: "e" },
-        { name: "v" },
-        { name: "e" },
-        { name: "L" },
-        { name: "o" },
-        { name: "p" },
-        { name: "e" },
-        { name: "r" },
-        { name: " " },
-        { name: "K" },
-        { name: "y" },
-        { name: "u" },
-        { name: "n" },
-        { name: "g" },
-        { name: "T" },
-        { name: "a" },
-        { name: "e" }
-      ]
-    };
-  },
-  methods: {}
+  name: "main-portfolio"
 };
 </script>
 <style>

@@ -43,11 +43,11 @@
         <portfolio-2></portfolio-2>
       </v-layout>
     </v-content>
-    <v-content>
+    <!-- <v-content>
       <v-layout justify-center align-center>
         <portfolio-3></portfolio-3>
       </v-layout>
-    </v-content>
+    </v-content>-->
     <v-content>
       <v-layout justify-center align-center>
         <main-about></main-about>
@@ -99,7 +99,7 @@ export default {
     detectWindowScrollY() {
       this.scrolled = window.scrollY < 50;
       this.drawer = false;
-      var scrollX = window.scrollX;
+      var scrollY = window.scrollY;
     },
     scrollMove() {
       window.scroll({
