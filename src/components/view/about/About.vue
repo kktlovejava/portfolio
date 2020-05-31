@@ -1,6 +1,6 @@
 <template>
   <section id="main-about" class="main-body" v-animate.repeat.fade="'slide-up'">
-    <v-card max-width="450" class="mx-auto" width="450">
+    <v-card id="aboutCard" max-width="450" class="mx-auto">
       <v-list one-line>
         <v-card-title class="white--text pl-12 pt-12">
           <div class="display-1" v-if="typerYn">

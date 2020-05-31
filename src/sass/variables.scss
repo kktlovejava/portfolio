@@ -37,6 +37,10 @@ li,
 dl {
   list-style: none;
 }
+.v-application ol,
+.v-application ul {
+  padding-left: 0px;
+}
 .ktsy-list {
   position: relative;
   width: 100%;
@@ -190,6 +194,13 @@ dl {
     margin: auto;
     position: relative;
   }
+  #myChart {
+    width: 600px !important;
+    height: 500px !important;
+  }
+  #aboutCard {
+    width: 450px;
+  }
 }
 @media (min-width: 798px) and (max-width: 1199px) {
   .main-body {
@@ -329,6 +340,13 @@ dl {
     margin-right: auto;
     padding-top: 20%;
   }
+  #myChart {
+    width: 600px !important;
+    height: 500px !important;
+  }
+  #aboutCard {
+    width: 450px;
+  }
 }
 @media (max-width: 797px) {
   .main-body {
@@ -431,7 +449,7 @@ dl {
     letter-spacing: normal !important;
   }
   .v-application .ktsy-d-50-1 {
-    width: auto;
+    width: 100%;
     height: 100%;
   }
   .v-application .ktsy-d-50-2 {
@@ -467,5 +485,12 @@ dl {
     margin-left: auto;
     margin-right: auto;
     padding-top: 10%;
+  }
+  #myChart {
+    width: 300px !important;
+    height: 500px !important;
+  }
+  #aboutCard {
+    width: 250px;
   }
 }

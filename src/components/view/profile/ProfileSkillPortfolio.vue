@@ -167,9 +167,3 @@ export default {
   }
 };
 </script>
-<style scope>
-#myChart {
-  width: 600px !important;
-  height: 500px !important;
-}
-</style>
